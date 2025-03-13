@@ -42,9 +42,9 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowFamilyTreeUiApp");
 
-app.UseMiddleware<ClientIdValidationMiddleware>();
-
 app.UseAuthorization();
+
+app.UseMiddleware<ClientIdValidationMiddleware>();
 
 app.MapControllers();
 
