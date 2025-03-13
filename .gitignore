@@ -1,0 +1,67 @@
+# Backend
+
+# Archivos de construcción de .NET
+backend/bin/
+backend/obj/
+
+# Configuración de usuario local
+*.user
+*.suo
+
+# Archivos de publicación
+*.publishsettings
+
+# Archivos sensibles
+appsettings.json       # Solo si contiene datos sensibles (puedes subir una versión `appsettings.json.example` en su lugar)
+
+# Otros
+backend/.vscode/               # Configuraciones específicas de Visual Studio Code
+backend/.idea/                 # Configuraciones específicas de IDEs como JetBrains Rider
+backend/.vs/			# Configuraciones específicas de IDEs como Visual Studio 2022
+
+# Frontend
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/family-tree-ui/node_modules
+frontend/family-tree-ui/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+frontend/family-tree-ui/coverage
+
+# next.js
+frontend/family-tree-ui/.next/
+frontend/family-tree-ui/out/
+
+# production
+frontend/family-tree-ui/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local env files
+.env.local
