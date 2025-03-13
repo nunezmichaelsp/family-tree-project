@@ -1,8 +1,9 @@
 {
-    "builds": [
-      {
-        "src": "frontend/family-tree-ui/**",
-        "use": "@vercel/next"
-      }
-    ]
-  }
+  "builds": [
+    {
+      "src": "frontend/family-tree-ui/**",
+      "use": "@vercel/next"
+    }
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
