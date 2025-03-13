@@ -112,8 +112,8 @@ Additionally:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/username/repository-name.git
-   cd repository-name
+   git clone https://github.com/nunezmichaelsp/family-tree-project
+   cd family-tree-project
    ```
 
 2. Make sure you're in the root directory of the project.
@@ -132,10 +132,14 @@ Additionally:
    dotnet restore
    ```
 
-3. Run the project:
+3. Make sure you're in the root directory of the project: <user-route>/family-tree-project/backend/.
+
+4. Run the project:
    ```bash
    dotnet run
    ```
+
+   OR run the solution in Debug mode and http from Visual Studio 2022.
 
 4. By default, the backend will be available at `http://localhost:5118`, and the API endpoint will be accessible at `http://localhost:5118/api`.
 
@@ -146,14 +150,18 @@ Additionally:
 1. Navigate to the frontend directory:
    ```bash
    cd frontend
+   cd family-tree-ui
    ```
+
+2. Make sure you're in the root directory of the project: <user-route>/family-tree-project/frontend/family-tree-ui/.
+
 
 2. Install the required dependencies:
    ```bash
    npm install
    ```
 
-3. Create a `.env.local` file in the root of the `frontend` directory with the following variables (customize according to your backend's port):
+3. Create a `.env.local` file in the root of the `family-tree-ui` directory with the following variables (customize according to your backend's port):
    ```env
    REACT_APP_API_URL=http://localhost:5118/api
    REACT_APP_CLIENT_ID=my-constant-client-id
@@ -187,6 +195,6 @@ This project is licensed under the [MIT License](./LICENSE).
 
 If you have any questions or suggestions, please reach out to the developer:
 
-- **Michael Nuñez**
-- **Email**: nunezmichaelsp@email.com
+- **Michael Nunez**
+- **Email**: nunezmichaelsp@gmail.com
 - **GitHub**: [michaelnunezsp](https://github.com/michaelnunezsp)

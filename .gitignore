@@ -1,23 +1,26 @@
 # Backend
 
-# Archivos de construcción de .NET
-backend/bin/
-backend/obj/
+# Ignore global IDE and editor folders
+**/.idea/
+**/.vs/
+**/.vscode/
 
-# Configuración de usuario local
-*.user
-*.suo
+# Ignore build output directories
+**/bin/
+**/obj/
 
-# Archivos de publicación
+# Ignore Rider and VS user-specific files
+**/*.user
+**/*.suo
+**/*.cache
+**/*.log
+
+# Ignore unnecessary OS files
+.DS_Store
+Thumbs.db
+
+# pPublishing files
 *.publishsettings
-
-# Archivos sensibles
-appsettings.json       # Solo si contiene datos sensibles (puedes subir una versión `appsettings.json.example` en su lugar)
-
-# Otros
-backend/.vscode/               # Configuraciones específicas de Visual Studio Code
-backend/.idea/                 # Configuraciones específicas de IDEs como JetBrains Rider
-backend/.vs/			# Configuraciones específicas de IDEs como Visual Studio 2022
 
 # Frontend
 
