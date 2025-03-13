@@ -4,6 +4,5 @@
         "src": "frontend/family-tree-ui/**",
         "use": "@vercel/next"
       }
-    ],
-    "ignore": ["backend/**"]
+    ]
   }
